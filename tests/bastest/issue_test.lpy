@@ -1,0 +1,9 @@
+(ns tests.bastest.issue-test
+  (:require [basilisp.test :refer [deftest is]]))
+
+
+(deftest abc []
+  (= 5 5))
+
+(deftest xyz []
+  (= 6 6))
